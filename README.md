@@ -1,9 +1,11 @@
 # Адаптер проектов DipTrace к новым XML-базам (.elixml / .libxml)
 
-Автономная HTML-утилита для адаптации файлов проектов DipTrace (принципиальной схемы `.dchxml` и печатной платы `.dipxml`), созданных на старых бинарных библиотеках `.eli` / `.lib`, к работе с новыми XML-базами элементов (`.elixml` и `.libxml`).
+Здесь --> **[Открыть инструмент онлайн: Адаптер проектов DipTrace к новым XML-базам](https://wadi-li.github.io/diptrace-project-xml-adapter/)** <-- рабочая веб-версия на GitHub Pages.
 
-**Онлайн (GitHub Pages):** https://wadi-li.github.io/diptrace-project-xml-adapter/  
-**Офлайн:** скачайте [`DipTrace-Project-XML-Adapter.html`](DipTrace-Project-XML-Adapter.html) или [`index.html`](index.html) и откройте в современном браузере — сервер и подключение к интернету не нужны, файлы обрабатываются локально в браузере.
+- **Рабочий инструмент на сайте (GitHub Pages):** [https://wadi-li.github.io/diptrace-project-xml-adapter/](https://wadi-li.github.io/diptrace-project-xml-adapter/)
+- **Скачать автономный HTML-файл (работает без интернета):** [DipTrace-Project-XML-Adapter.html](https://github.com/wadi-li/diptrace-project-xml-adapter/raw/main/DipTrace-Project-XML-Adapter.html) · [index.html](https://github.com/wadi-li/diptrace-project-xml-adapter/raw/main/index.html)
+
+Автономная однофайловая HTML-утилита для адаптации файлов проектов DipTrace (принципиальной схемы `.dchxml` и печатной платы `.dipxml`), созданных на старых бинарных библиотеках `.eli` / `.lib`, к работе с новыми XML-базами элементов (`.elixml` и `.libxml`). Сервер и подключение к интернету не нужны — все файлы обрабатываются локально в браузере.
 
 ## Решаемые задачи
 
@@ -42,3 +44,12 @@
 - Побайтово сохраняются метка UTF-8 с BOM (`\ufeff`), переводы строк `CRLF`, порядок атрибутов и форматирование неизменённых секций DipTrace.
 - При обновлении блока `<Model3D>` учитываются единицы измерения корневого документа: для схемы (`.dchxml`, `Units="mil"`) смещения `Offset` (`X`, `Y`, `Z`) и `IPC_XOff`/`IPC_YOff` из библиотеки `.libxml` (`Units="mm"`) автоматически пересчитываются в милы (`мм / 0.0254`), а для платы (`.dipxml`, `Units="mm"`) записываются в миллиметрах.
 - Светлая тема включена по умолчанию, доступен переключатель тёмной темы.
+
+## Другие утилиты DipTrace XML
+
+- [Ремонт библиотек DipTrace XML (.libxml / .elixml)](https://wadi-li.github.io/diptrace-xml-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-xml-repair)
+- [Очистка и упорядочивание полей библиотек DipTrace (.elixml)](https://wadi-li.github.io/diptrace-field-cleaner/) — [репозиторий](https://github.com/wadi-li/diptrace-field-cleaner)
+- [Заполнение пропусков позиционных обозначений (RefDes) в схемах .dchxml](https://wadi-li.github.io/diptrace-refdes-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-repair)
+- [Устранение пропусков RefDes с заменой надписей в .dchxml](https://wadi-li.github.io/diptrace-refdes-renumberator/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-renumberator)
+- [Исправление интерактивного HTML BOM DipTrace](https://wadi-li.github.io/diptrace-html-bom-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-html-bom-repair)
+- [ЕСКД: перечень элементов (ПЭ3) и спецификация из CSV / .dchxml](https://wadi-li.github.io/eskd-csv-pdf/) — [репозиторий](https://github.com/wadi-li/eskd-csv-pdf)
