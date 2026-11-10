@@ -1,6 +1,18 @@
-# Адаптер проектов DipTrace к новым XML-базам (.elixml / .libxml)
+# Адаптация проектов и исправление связей
 
-Здесь --> **[Открыть инструмент онлайн: Адаптер проектов DipTrace к новым XML-базам](https://wadi-li.github.io/diptrace-project-xml-adapter/)** <-- рабочая веб-версия на GitHub Pages.
+## Постоянное название проекта
+
+Использовать эти названия в каталоге, README и ссылках. Менять их только по прямому указанию владельца; описание возможностей не является новым названием.
+
+| Язык | Название |
+| --- | --- |
+| RU | Адаптация проектов и исправление связей |
+| UA | Адаптація проєктів і виправлення зв’язків |
+| EN | Project adaptation and link repair |
+| FRA | Adaptation de projets et réparation des liens |
+
+
+Здесь --> **[Открыть проект: Адаптация проектов и исправление связей](https://wadi-li.github.io/diptrace-project-xml-adapter/)** <-- рабочая веб-версия на GitHub Pages.
 
 - **Рабочий инструмент на сайте (GitHub Pages):** [https://wadi-li.github.io/diptrace-project-xml-adapter/](https://wadi-li.github.io/diptrace-project-xml-adapter/)
 - **Скачать автономный HTML-файл (работает без интернета):** [DipTrace-Project-XML-Adapter.html](https://github.com/wadi-li/diptrace-project-xml-adapter/raw/main/DipTrace-Project-XML-Adapter.html) · [index.html](https://github.com/wadi-li/diptrace-project-xml-adapter/raw/main/index.html)
@@ -49,7 +61,7 @@
 
 - [Ремонт библиотек DipTrace XML (.libxml / .elixml)](https://wadi-li.github.io/diptrace-xml-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-xml-repair)
 - [Очистка и упорядочивание полей библиотек DipTrace (.elixml)](https://wadi-li.github.io/diptrace-field-cleaner/) — [репозиторий](https://github.com/wadi-li/diptrace-field-cleaner)
-- [Заполнение пропусков позиционных обозначений (RefDes) в схемах .dchxml](https://wadi-li.github.io/diptrace-refdes-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-repair)
-- [Устранение пропусков RefDes с заменой надписей в .dchxml](https://wadi-li.github.io/diptrace-refdes-renumberator/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-renumberator)
+- [Заполнение пропусков нумерации компонентов RefDes · 2.0.0](https://wadi-li.github.io/diptrace-refdes-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-repair)
+- [Перенумерация RefDes · 1.0.0](https://wadi-li.github.io/diptrace-refdes-renumberator/) — [репозиторий](https://github.com/wadi-li/diptrace-refdes-renumberator)
 - [Исправление интерактивного HTML BOM DipTrace](https://wadi-li.github.io/diptrace-html-bom-repair/) — [репозиторий](https://github.com/wadi-li/diptrace-html-bom-repair)
-- [ЕСКД: перечень элементов (ПЭ3) и спецификация из CSV / .dchxml](https://wadi-li.github.io/eskd-csv-pdf/) — [репозиторий](https://github.com/wadi-li/eskd-csv-pdf)
+- [Генерация перечня элементов спецификации из схемы DipTrace](https://wadi-li.github.io/eskd-csv-pdf/) — [репозиторий](https://github.com/wadi-li/eskd-csv-pdf)
